@@ -1,7 +1,7 @@
 {
-  "name": "@metaplex-foundation/mpl-core",
-  "version": "0.6.1",
-  "description": "MPL Core Tooling.",
+  "name": "@fluidchains/ywpl-core",
+  "version": "0.0.1",
+  "description": "YWPL Core Tooling.",
   "main": "dist/src/mpl-core.js",
   "types": "dist/src/mpl-core.d.ts",
   "scripts": {
@@ -32,12 +32,12 @@
     "solana",
     "blockchain"
   ],
-  "homepage": "https://metaplex.com",
-  "repository": "https://github.com/metaplex-foundation/metaplex-program-library.git",
-  "author": "Metaplex Maintainers <contact@metaplex.com>",
+  "homepage": "https://fluidchains.com",
+  "repository": "https://github.com/fluidchains/ywpl-program-library.git",
+  "author": "FluidChains",
   "license": "MIT",
   "dependencies": {
-    "@solana/web3.js": "^1.35.1",
+    "@solana/web3.js": "1.37.0",
     "bs58": "^4.0.1"
   },
   "devDependencies": {
