@@ -19,7 +19,7 @@ import {
   MintFractionalSharesInstructionAccounts,
   NotEnoughSharesError,
   VaultShouldBeActiveError,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 import spok, { Specifications } from 'spok';
 import { bignum } from '@metaplex-foundation/beet';
 import BN from 'bn.js';

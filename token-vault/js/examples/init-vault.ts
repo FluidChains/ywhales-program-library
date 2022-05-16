@@ -24,7 +24,7 @@ import {
   initVault as createInitVaultIx,
   Vault,
   VaultSetup,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 
 // Using wrapped SOL mint here, you may choose to use another
 export const priceMint = QUOTE_MINT;

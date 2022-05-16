@@ -16,7 +16,7 @@ import {
   ERROR_INVALID_OWNER,
   TupleNumericType,
   Borsh,
-} from '@metaplex-foundation/mpl-core';
+} from '@fluidchains/ywpl-core';
 import { MetaplexKey, MetaplexProgram } from '../MetaplexProgram';
 import { Buffer } from 'buffer';
 

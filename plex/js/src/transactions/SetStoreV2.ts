@@ -14,10 +14,10 @@ import {
   TransactionCtorFields,
   TransactionInstruction,
 } from '@solana/web3.js';
-import { Borsh, Transaction } from '@metaplex-foundation/mpl-core';
+import { Borsh, Transaction } from '@fluidchains/ywpl-core';
 import { ParamsWithStore, VaultProgram } from './vault';
-import { MetadataProgram } from '@metaplex-foundation/mpl-token-metadata';
-import { AuctionProgram } from '@metaplex-foundation/mpl-auction';
+import { PROGRAM_ID } from '@fluidchains/ywpl-token-metadata';
+import { AuctionProgram } from '@fluidchains/ywpl-auction';
 import { MetaplexProgram } from '../MetaplexProgram';
 
 export class SetStoreV2Args extends Borsh.Data<{ public: boolean; settingsUri: string | null }> {
@@ -80,7 +80,7 @@ export class SetStoreV2 extends Transaction {
             isWritable: false,
           },
           {
-            pubkey: MetadataProgram.PUBKEY,
+            pubkey: PROGRAM_ID,
             isSigner: false,
             isWritable: false,
           },

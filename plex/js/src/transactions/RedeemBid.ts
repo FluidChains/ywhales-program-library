@@ -5,7 +5,7 @@
  * Given that these parts of the SDK will be re-generated with solita very soon
  * that would be a wasted effort and therefore we make an EXCEPTION here.
  */
-import { Borsh, Transaction } from '@metaplex-foundation/mpl-core';
+import { Borsh, Transaction } from '@fluidchains/ywpl-core';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import {
   PublicKey,
@@ -14,7 +14,7 @@ import {
   TransactionCtorFields,
   TransactionInstruction,
 } from '@solana/web3.js';
-import { MetadataProgram } from '@metaplex-foundation/mpl-token-metadata';
+import { PROGRAM_ID } from '@fluidchains/ywpl-token-metadata';
 import { VaultProgram, ParamsWithStore } from './vault';
 import { MetaplexProgram } from '../MetaplexProgram';
 import { strict as assert } from 'assert';
@@ -173,7 +173,7 @@ export class RedeemBid extends Transaction {
             isWritable: false,
           },
           {
-            pubkey: MetadataProgram.PUBKEY,
+            pubkey: PROGRAM_ID,
             isSigner: false,
             isWritable: false,
           },

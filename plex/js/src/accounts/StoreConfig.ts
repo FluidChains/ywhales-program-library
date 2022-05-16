@@ -12,7 +12,7 @@ import {
   AnyPublicKey,
   Borsh,
   Account,
-} from '@metaplex-foundation/mpl-core';
+} from '@fluidchains/ywpl-core';
 import { AccountInfo, PublicKey } from '@solana/web3.js';
 import { Buffer } from 'buffer';
 import { MetaplexKey, MetaplexProgram } from '../MetaplexProgram';

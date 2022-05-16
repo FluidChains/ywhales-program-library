@@ -3,7 +3,6 @@ import {
   airdrop,
   assertConfirmedTransaction,
   assertTransactionSummary,
-  LOCALHOST,
   PayerTransactionHandler,
 } from '@metaplex-foundation/amman';
 import { Connection, PublicKey, Transaction } from '@solana/web3.js';
@@ -16,13 +15,13 @@ import {
   VaultSetup,
   initVault as createInitVaultIx,
   CompletedVaultSetup,
-} from '../../src/ywpl-token-vault';
+} from '../../src/mpl-token-vault';
 
 export async function init() {
   const [payer, payerPair] = addressLabels.genKeypair('payer');
   const [vaultAuthority, vaultAuthorityPair] = addressLabels.genKeypair('vaultAuthority');
 
-  const connection = new Connection(LOCALHOST, 'confirmed');
+  const connection = new Connection("http://api.devnet.solana.com/", 'confirmed');
   await airdrop(connection, payer, 2);
 
   const transactionHandler = new PayerTransactionHandler(connection, payerPair);

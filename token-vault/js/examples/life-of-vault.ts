@@ -28,7 +28,7 @@ import {
   WithdrawTokenFromSafetyDepositBoxAccounts,
   setupWithdrawFromSafetyDestinationAccount,
   withdrawTokenFromSafetyDepositBox,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 import { initVault, priceMint } from './init-vault';
 import { addTokenToVault } from './add-token-to-inactive-vault.single-transaction';
 import { pdaForVault } from '../src/common/helpers';

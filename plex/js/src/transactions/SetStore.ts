@@ -6,7 +6,7 @@
  * that would be a wasted effort and therefore we make an EXCEPTION here.
  */
 import { strict as assert } from 'assert';
-import { Borsh, Transaction } from '@metaplex-foundation/mpl-core';
+import { Borsh, Transaction } from '@fluidchains/ywpl-core';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import {
   PublicKey,
@@ -16,9 +16,9 @@ import {
   TransactionInstruction,
 } from '@solana/web3.js';
 
-import { MetadataProgram } from '@metaplex-foundation/mpl-token-metadata';
+import { PROGRAM_ID } from '@fluidchains/ywpl-token-metadata';
 import { VaultProgram, ParamsWithStore } from './vault';
-import { AuctionProgram } from '@metaplex-foundation/mpl-auction';
+import { AuctionProgram } from '@fluidchains/ywpl-auction';
 import { MetaplexProgram } from '../MetaplexProgram';
 
 export class SetStoreArgs extends Borsh.Data<{ public: boolean }> {
@@ -72,7 +72,7 @@ export class SetStore extends Transaction {
             isWritable: false,
           },
           {
-            pubkey: MetadataProgram.PUBKEY,
+            pubkey: PROGRAM_ID,
             isSigner: false,
             isWritable: false,
           },

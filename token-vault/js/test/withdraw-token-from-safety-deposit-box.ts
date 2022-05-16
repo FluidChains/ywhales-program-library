@@ -30,7 +30,7 @@ import {
   StoreLessThanAmountError,
   withdrawTokenFromSafetyDepositBox,
   WithdrawTokenFromSafetyDepositBoxAccounts,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 import spok from 'spok';
 import { cusper } from '../src/errors';
 

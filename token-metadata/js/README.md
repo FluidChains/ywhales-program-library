@@ -9,25 +9,25 @@ Find the [token-metadata API docs published here](https://metaplex-foundation.gi
 ## Installation
 
 ```shell
-npm install @metaplex-foundation/mpl-token-metadata --save
+npm install @fluidchains/ywpl-token-metadata --save
 ```
 
 This will use the new auto-generated API. If you want to use the old deprecated API, you can use the following:
 
 ```shell
-npm install @metaplex-foundation/mpl-token-metadata@^1.2 --save
+npm install @fluidchains/ywpl-token-metadata@^1.2 --save
 ```
 
 Alternatively, if you'd like to start using the new API but still have access to the deprecated one, you may use the following:
 
 ```sh
-npm install @metaplex-foundation/mpl-token-metadata@~2.0 --save
+npm install @fluidchains/ywpl-token-metadata@~2.0 --save
 ```
 
 And use the deprecated API explicitly like so:
 
 ```ts
-import { deprecated } from "@metaplex-foundation/mpl-token-metadata";
+import { deprecated } from "@fluidchains/ywpl-token-metadata";
 ```
 
 ## Developing

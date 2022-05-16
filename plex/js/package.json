@@ -1,6 +1,6 @@
 {
-  "name": "@metaplex-foundation/mpl-metaplex",
-  "version": "0.0.5",
+  "name": "@fluidchains/ywpl-plex",
+  "version": "0.0.1",
   "description": "MPL Metaplex JavaScript API.",
   "main": "dist/src/mpl-metaplex.js",
   "types": "dist/src/mpl-metaplex.d.ts",
@@ -37,20 +37,22 @@
     "solana",
     "blockchain"
   ],
-  "homepage": "https://metaplex.com",
-  "repository": "https://github.com/metaplex-foundation/metaplex-program-library.git",
-  "author": "Metaplex Maintainers <contact@metaplex.com>",
+  "homepage": "https://fluidchains.com",
+  "repository": "https://github.com/fluidchains/ywhales-program-library.git",
+  "author": "FludChains",
   "license": "MIT",
   "dependencies": {
-    "@metaplex-foundation/mpl-auction": "^0.0.2",
-    "@metaplex-foundation/mpl-core": "^0.0.5",
-    "@metaplex-foundation/mpl-token-metadata": "^0.0.2",
-    "@metaplex-foundation/ywpl-token-vault": "^0.0.2",
+    "@fluidchains/ywpl-auction": "^0.0.1",
+    "@fluidchains/ywpl-core": "^0.0.2",
+    "@fluidchains/ywpl-token-metadata": "^0.0.1",
+    "@fluidchains/ywpl-token-vault": "^0.0.1",
     "@solana/spl-token": "^0.2.0",
     "@solana/web3.js": "^1.35.1"
   },
   "devDependencies": {
     "@metaplex-foundation/amman": "^0.1.0",
+    "@types/bs58": "^4.0.1",
+    "@types/tape": "^4.13.2",
     "esbuild": "^0.14.14",
     "esbuild-runner": "^2.2.1",
     "eslint": "^8.3.0",

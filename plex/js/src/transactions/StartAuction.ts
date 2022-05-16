@@ -5,14 +5,14 @@
  * Given that these parts of the SDK will be re-generated with solita very soon
  * that would be a wasted effort and therefore we make an EXCEPTION here.
  */
-import { Borsh, Transaction } from '@metaplex-foundation/mpl-core';
+import { Borsh, Transaction } from '@fluidchains/ywpl-core';
 import {
   PublicKey,
   SYSVAR_CLOCK_PUBKEY,
   TransactionCtorFields,
   TransactionInstruction,
 } from '@solana/web3.js';
-import { AuctionProgram } from '@metaplex-foundation/mpl-auction';
+import { AuctionProgram } from '@fluidchains/ywpl-auction';
 import { MetaplexProgram } from '../MetaplexProgram';
 import { ParamsWithStore } from './vault';
 

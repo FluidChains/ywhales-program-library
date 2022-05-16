@@ -11,7 +11,7 @@ import {
 } from './utils';
 import { Transaction } from '@solana/web3.js';
 import { assertConfirmedTransaction, assertTransactionSummary } from '@metaplex-foundation/amman';
-import { ExternalPriceAccount, Key, QUOTE_MINT } from '../src/ywpl-token-vault';
+import { ExternalPriceAccount, Key, QUOTE_MINT } from '../src/mpl-token-vault';
 import { createExternalPriceAccount } from '../src/instructions/create-external-price-account';
 
 killStuckProcess();

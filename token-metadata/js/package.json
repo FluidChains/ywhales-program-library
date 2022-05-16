@@ -1,6 +1,6 @@
 {
-  "name": "@metaplex-foundation/mpl-token-metadata",
-  "version": "2.1.0",
+  "name": "@fluidchains/ywpl-token-metadata",
+  "version": "0.0.1",
   "contractVersion": "1.2.5",
   "description": "MPL Token Metadata JavaScript API.",
   "main": "dist/mpl-token-metadata.js",
@@ -34,9 +34,9 @@
     "solana",
     "blockchain"
   ],
-  "homepage": "https://metaplex.com",
-  "repository": "https://github.com/metaplex-foundation/metaplex-program-library.git",
-  "author": "Metaplex Maintainers <contact@metaplex.com>",
+  "homepage": "https://fluidchains.com",
+  "repository": "https://github.com/fluidchains/ywhales-program-library.git",
+  "author": "Fluidchains",
   "license": "MIT",
   "dependencies": {
     "@metaplex-foundation/beet": "^0.1.0",

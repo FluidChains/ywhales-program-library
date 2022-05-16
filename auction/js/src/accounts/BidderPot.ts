@@ -13,7 +13,7 @@ import {
   ERROR_INVALID_OWNER,
   AnyPublicKey,
   StringPublicKey,
-} from '@metaplex-foundation/mpl-core';
+} from '@fluidchains/ywpl-core';
 import { AuctionProgram } from '../AuctionProgram';
 import { AccountInfo, PublicKey } from '@solana/web3.js';
 import { Buffer } from 'buffer';

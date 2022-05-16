@@ -1,5 +1,5 @@
 import { PublicKey } from '@solana/web3.js';
-import { config } from '@metaplex-foundation/mpl-core';
+import { config } from '@fluidchains/ywpl-core';
 
 export const VaultProgram = {
   PUBKEY: new PublicKey(config.programs.vault),

@@ -22,7 +22,7 @@ import {
   addTokenToInactiveVault,
   InvalidAuthorityError,
   SafetyDepositSetup,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 import { cusper } from '../src/errors';
 
 killStuckProcess();

@@ -17,7 +17,7 @@ import {
   MintFractionalSharesInstructionAccounts,
   mintSharesToTreasury,
   VaultShouldBeActiveError,
-} from '../src/ywpl-token-vault';
+} from '../src/mpl-token-vault';
 import {
   assertConfirmedTransaction,
   assertError,

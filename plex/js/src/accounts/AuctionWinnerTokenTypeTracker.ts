@@ -5,7 +5,7 @@ import {
   ERROR_INVALID_OWNER,
   TupleNumericType,
   getBNFromData,
-} from '@metaplex-foundation/mpl-core';
+} from '@fluidchains/ywpl-core';
 import { strict as assert } from 'assert';
 import { AccountInfo, PublicKey } from '@solana/web3.js';
 import BN from 'bn.js';

@@ -2,9 +2,8 @@ import path from 'path';
 import { Keypair, PublicKey, TransactionCtorFields } from '@solana/web3.js';
 import { tmpdir } from 'os';
 import { readFileSync } from 'fs';
-import { LOCALHOST } from '@metaplex-foundation/amman';
 
-export const connectionURL = LOCALHOST;
+export const connectionURL = 'http://api.devnet.solana.com';
 
 // Devnet fee payer
 export const FEE_PAYER = Keypair.fromSecretKey(

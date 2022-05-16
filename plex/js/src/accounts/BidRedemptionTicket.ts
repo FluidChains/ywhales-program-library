@@ -10,8 +10,7 @@ import {
   ERROR_DEPRECATED_ACCOUNT_DATA,
   ERROR_INVALID_ACCOUNT_DATA,
   ERROR_INVALID_OWNER,
-} from '@metaplex-foundation/mpl-core';
-import { Buffer } from 'buffer';
+} from '@fluidchains/ywpl-core';
 
 export interface BidRedemptionTicketV2Data {
   key: MetaplexKey;

@@ -6,9 +6,9 @@
  * that would be a wasted effort and therefore we make an EXCEPTION here.
  */
 import { strict as assert } from 'assert';
-import { Borsh, Transaction } from '@metaplex-foundation/mpl-core';
+import { Borsh, Transaction } from '@fluidchains/ywpl-core';
 import { ParamsWithStore, VaultProgram } from './vault';
-import { MetadataProgram } from '@metaplex-foundation/mpl-token-metadata';
+import { PROGRAM_ID } from '@fluidchains/ywpl-token-metadata';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import {
   PublicKey,
@@ -157,7 +157,7 @@ export class RedeemPrintingV2Bid extends Transaction {
             isWritable: false,
           },
           {
-            pubkey: MetadataProgram.PUBKEY,
+            pubkey: PROGRAM_ID,
             isSigner: false,
             isWritable: false,
           },

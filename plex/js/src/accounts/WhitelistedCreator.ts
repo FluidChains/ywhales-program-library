@@ -13,7 +13,7 @@ import {
   Account,
   ERROR_INVALID_ACCOUNT_DATA,
   ERROR_INVALID_OWNER,
-} from '@metaplex-foundation/mpl-core';
+} from '@fluidchains/ywpl-core';
 import { MetaplexProgram, MetaplexKey } from '../MetaplexProgram';
 import { Buffer } from 'buffer';
 import { AccountInfo, PublicKey } from '@solana/web3.js';
