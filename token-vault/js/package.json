@@ -1,9 +1,9 @@
 {
   "name": "@fluidchains/ywpl-token-vault",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MPL Token Vault JavaScript API.",
-  "main": "dist/src/ywpl-token-vault.js",
-  "types": "dist/src/ywpl-token-vault.d.ts",
+  "main": "dist/src/mpl-token-vault.js",
+  "types": "dist/src/mpl-token-vault.d.ts",
   "scripts": {
     "check:publish-ready": "yarn build && yarn test",
     "preversion": "yarn check:publish-ready",
